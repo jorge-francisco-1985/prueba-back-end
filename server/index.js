@@ -13,16 +13,17 @@ const io =sIo.listen(app.listen(app.get('port'),()=>{
 }));
 
 io.on('connection',(socket)=>{
-    console.log("nueva conexión ",socket.id);
     socket.on('mensaje',(data)=>{
         data.nombre=user[socket.id];
         io.sockets.emit('mensaje',data);
         
     });
     socket.on('nuevo_usuario',(data)=>{
-        user[socket.id]=data;     
-        console.log(user);
-           
+        user[socket.id]=data;           
+    });
+    socket.on('disconnect', function () {
+        
+        delete user[socket.id];
     });
     
 });

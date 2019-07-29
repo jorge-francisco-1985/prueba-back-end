@@ -1,20 +1,12 @@
-Para iniciar el servidor, Entrar a la carpeta server.
 
+Dentro del la carpeta principal ejecutar:
 
+Para el servidor
+### `npm run server`
 
-Dentro del la carpeta ejecutar:
-Para instalar dependencias
-### `npm install`
-Para ejecutar el proyecto
-### `npm run serv`
+Para el cliente
+### `npm run client`
 
-Para abrir la aplicacion de chat, entrar a la carpeta client
-
-Dentro del la carpeta ejecutar:
-Para instalar dependencias
-### `npm install`
-Para ejecutar el proyecto
-### `npm start`
 
 
 

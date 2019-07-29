@@ -1,0 +1,20 @@
+{
+  "name": "prueba-back",
+  "version": "1.0.0",
+  "description": "Para iniciar el servidor, Entrar a la carpeta server.",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client":"serve -s build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorge-francisco-1985/prueba-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorge-francisco-1985/prueba-back-end/issues"
+  },
+  "homepage": "https://github.com/jorge-francisco-1985/prueba-back-end#readme"
+}
